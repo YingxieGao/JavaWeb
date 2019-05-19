@@ -7,15 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="731082f9-eb8d-44b3-b540-d56afefa041e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/JavaWeb.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/AServlet_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AServlet/AServlet.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AServlet/src/Aservlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AServlet/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AServlet/src/Bservlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -48,11 +40,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AServlet/src/Aservlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            <state relative-caret-position="136">
+              <caret line="12" column="82" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AServlet/src/Bservlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,6 +83,7 @@
         <option value="$PROJECT_DIR$/AServlet/web/index.jsp" />
         <option value="$PROJECT_DIR$/AServlet/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/AServlet/src/Aservlet.java" />
+        <option value="$PROJECT_DIR$/AServlet/src/Bservlet.java" />
       </list>
     </option>
   </component>
@@ -318,12 +323,20 @@
       <workItem from="1557830354729" duration="867000" />
       <workItem from="1558075594661" duration="24000" />
       <workItem from="1558229352886" duration="162000" />
-      <workItem from="1558229633238" duration="1979000" />
+      <workItem from="1558229633238" duration="3000000" />
     </task>
+    <task id="LOCAL-00001" summary="@WebServlet 配置终于成功了">
+      <created>1558231897539</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1558231897539</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3032000" />
+    <option name="totallyTimeSpent" value="4053000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -338,7 +351,7 @@
     <frame x="20" y="43" width="1400" height="772" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26067746" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -347,7 +360,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.41764706" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41764706" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -371,6 +384,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="@WebServlet 配置终于成功了" />
+    <option name="LAST_COMMIT_MESSAGE" value="@WebServlet 配置终于成功了" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MyFirstJavaWeb/web/index.jsp" />
@@ -407,8 +424,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AServlet/src/Aservlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="48" lean-forward="true" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+        <state relative-caret-position="136">
+          <caret line="12" column="82" selection-start-line="12" selection-start-column="82" selection-end-line="12" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AServlet/src/Bservlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
