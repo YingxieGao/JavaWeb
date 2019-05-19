@@ -7,21 +7,15 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 /**
- * 普通Servlet测试
+ * 页面刷新重定向
  */
-@WebServlet("/Aservlet")
-public class Aservlet extends HttpServlet {
-    private String message;
+@WebServlet("/Cservlet")
+public class Cservlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html");
-        PrintWriter out = resp.getWriter();
-        out.println("<h1>" + message + "</h1>");
-    }
+        PrintWriter pw = resp.getWriter();
+        pw.println("After 5 sec you will be relocating to Dservlet");
 
-    @Override
-    public void init() throws ServletException {
-        message = "Hello world, this message is from servlet!";
+        resp.setHeader("Refresh", "5; URL=/AServlet/Dservlet");
     }
 }
-

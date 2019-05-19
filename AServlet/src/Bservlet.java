@@ -7,6 +7,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+
+/**
+ * 检测访问Servlet次数
+ */
 @WebServlet("/Bservlet")
 public class Bservlet extends HttpServlet {
     @Override
