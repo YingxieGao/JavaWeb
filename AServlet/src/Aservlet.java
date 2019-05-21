@@ -6,8 +6,10 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
+import static java.lang.Thread.sleep;
+
 /**
- * 普通Servlet测试
+ * 普通Servlet测试,以及获取Referer,防盗链
  */
 @WebServlet("/Aservlet")
 public class Aservlet extends HttpServlet {
@@ -17,6 +19,20 @@ public class Aservlet extends HttpServlet {
         resp.setContentType("text/html");
         PrintWriter out = resp.getWriter();
         out.println("<h1>" + message + "</h1>");
+
+        String referer = req.getHeader("Referer");
+        PrintWriter pw = resp.getWriter();
+
+        System.out.println(referer);
+        if(referer == null || !referer.contains("localhost")){
+            pw.println("You are a bad boy, please go to index.jsp first! I will send you there~");
+            resp.setHeader("Refresh", "5; URL=/AServlet");
+        }
+        else{
+            pw.println("You are from " + referer);
+            pw.println("You are a good boy!");
+        }
+
     }
 
     @Override

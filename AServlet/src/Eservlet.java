@@ -12,7 +12,12 @@ import java.io.IOException;
 public class Eservlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setHeader("Location", "/AServlet/Dservlet");
-        resp.setStatus(302);
+//        resp.setHeader("Location", "/AServlet/Dservlet");
+//        resp.setStatus(302);
+        String projName = req.getContextPath();
+        System.out.println(projName);
+        resp.sendRedirect(projName+"/Dservlet");
+
+
     }
 }
