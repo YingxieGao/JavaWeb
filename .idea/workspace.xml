@@ -7,10 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="731082f9-eb8d-44b3-b540-d56afefa041e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Mysql/Mysql.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Mysql/src/jdbc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,11 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Mysql/src/jdbc.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -324,7 +317,7 @@
       <workItem from="1558229633238" duration="14699000" />
       <workItem from="1558502711139" duration="668000" />
       <workItem from="1558695415011" duration="305000" />
-      <workItem from="1559297845595" duration="2244000" />
+      <workItem from="1559297845595" duration="3509000" />
     </task>
     <task id="LOCAL-00001" summary="@WebServlet 配置终于成功了">
       <created>1558231897539</created>
@@ -347,11 +340,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558235865074</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="jdbc连接！go！">
+      <created>1559304077055</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1559304077055</updated>
+    </task>
+    <task id="LOCAL-00005" summary="查询和修改">
+      <created>1559317062009</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1559317062009</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18969000" />
+    <option name="totallyTimeSpent" value="20234000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,7 +411,9 @@
     <MESSAGE value="@WebServlet 配置终于成功了" />
     <MESSAGE value="Bservlet 统计访问次数" />
     <MESSAGE value="我好牛逼" />
-    <option name="LAST_COMMIT_MESSAGE" value="我好牛逼" />
+    <MESSAGE value="jdbc连接！go！" />
+    <MESSAGE value="查询和修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="查询和修改" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/MyFirstJavaWeb/web/index.jsp" />
@@ -553,11 +562,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Mysql/src/jdbc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
         </state>
       </provider>
     </entry>

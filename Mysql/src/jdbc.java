@@ -7,7 +7,7 @@ public class jdbc {
         System.out.println(con);
 
         Statement stmt = con.createStatement();
-        
+
         /*String sql = "insert into stu values(7,'niubi')";
         int r = stmt.executeUpdate(sql);
         System.out.println(r);
@@ -19,5 +19,9 @@ public class jdbc {
             String name = result.getString("name");
             System.out.println(id + ", "+ name);
         }
+
+        result.close();
+        stmt.close();
+        con.close();
     }
 }
